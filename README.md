@@ -10,7 +10,6 @@ My Pool : http://ns2.ingpool.tk/site/mining <br>
 <br>
 <br>
 <h2>BitcoinPro - BTCP</h2> <br>
-<h5>type : POW <br>
 rpcport : 4436 <br>
 port : 4437 <br>
 Symbol : BTCP <br>
