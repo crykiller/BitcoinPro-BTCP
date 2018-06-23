@@ -80,7 +80,7 @@ LIBPATHS= \
 CFLAGS += $(INCLUDEPATHS)
 
 USE_UPNP:=-
-USE_IPV6:=1
+USE_IPV6:=0
 
 LINK:=$(CXX)
 
@@ -93,7 +93,7 @@ ifeq ($(STATIC),1)
 TESTLIBS += \
  $(DEPSDIR)/lib/libboost_unit_test_framework.a
 LIBS += \
- /usr/lib/x86_64-linux-gnu/libdb_cxx-5.3.a \
+ /usr/lib/libdb_cxx.a \
  $(LIB_BOOST)/libboost_system.a \
  $(LIB_BOOST)/libboost_filesystem.a \
  $(LIB_BOOST)/libboost_program_options.a \
