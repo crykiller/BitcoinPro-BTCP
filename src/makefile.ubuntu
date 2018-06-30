@@ -39,7 +39,7 @@
 STATIC=1
 
 # Berkely DB
-DEPSDIR=/usr/local/BerkeleyDB.4.8
+DEPSDIR=/usr/local
 
 # debian third-party headers
 INC_LINUX="/usr/include/x86_64-linux-gnu"
